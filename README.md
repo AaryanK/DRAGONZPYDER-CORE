@@ -1,155 +1,49 @@
-Here you go—**clean, powerful, and aligned with your vision**. Copy-paste this into your new repo.
-
----
-
-```markdown
 # 🕸️🔥 DragonZpyder
 
-**DragonZpyder** is a web-native intelligence system designed to bridge the gap between humans, AI agents, and real-world actions.
+DragonZpyder is an AI system that turns user intent into real-world actions.
 
-> 🕸️ Spider → Navigates and connects across the web  
-> 🔥 Dragon → Executes powerful intelligence and actions  
-
----
-
-## 🚀 Vision
-
-The modern internet is built for humans — visual, unstructured, and inefficient for AI agents.
-
-DragonZpyder aims to create a **Rosetta Stone layer** between:
-
-- 🌐 Human interfaces (UI / websites)
-- 🤖 AI agents (LLMs / local models)
-- ⚙️ Real-world actions (APIs / services)
+Instead of browsing websites, it enables:
+**Intent → Action → Execution**
 
 ---
 
-## ⚙️ Core Idea
+## ⚙️ What it does
 
-Instead of AI scraping web pages, DragonZpyder enables:
-
-> **Intent → Structured Action → Execution**
-
----
-
-## 🧠 Architecture (v1)
-
-```
-
-User Input (Voice / Text)
-↓
-Local Inference (Fast, lightweight)
-↓
-Intent Detection
-↓
-┌───────────────┬────────────────────┐
-│ Simple Task   │ Complex Task       │
-│ (Local/API)   │ (Cloud LLM)        │
-└───────────────┴────────────────────┘
-↓
-Execution Layer (API Calls / Tools)
-↓
-Output to User
-
-```
+- Takes input (voice/text)
+- Detects intent (locally if possible)
+- Calls APIs or tools
+- Returns results
 
 ---
 
-## 🔥 Key Concepts
+## 🧠 Core Idea
 
-### 1. Rosetta Stone Layer
-Translates human intent into structured, machine-readable actions.
+- Human → UI  
+- AI → structured actions  
 
-### 2. Staged Inference
-- 🟢 Local → Fast decisions
-- 🔵 Cloud → Deep reasoning (only when needed)
-- 🟣 Local → Execution
-
-### 3. Action-Based Web
-Move from:
-- ❌ Browsing pages  
-- ✅ Executing actions
+A simple translation layer between users, AI, and the web.
 
 ---
 
-## 🛠️ Current Scope (v1)
+## 🚀 Example
 
-- Voice/Text input
-- Basic intent detection
-- Simple API integration (e.g., weather, search)
-- Local-first routing (staged inference)
-
----
-
-## 🧪 Example Flow
-
-```
-
-Input: "What's the weather in Wichita?"
-
-→ Local model detects intent: WEATHER_QUERY
-→ Calls weather API
-→ Returns structured response
-
-````
+Input: "weather in Wichita"  
+→ detect intent  
+→ call weather API  
+→ return result  
 
 ---
 
-## 🧭 Roadmap
+## 🛠️ Run
 
-### v1
-- Single agent
-- Basic intent → API execution
-- CLI / simple interface
-
-### v2
-- Multi-tool support
-- Dynamic routing
-
-### v3
-- Multi-agent system
-- Agent-to-agent interaction
-
-### v4
-- Agent marketplace
-- Shared inference layer
-- Optimized communication protocols
+git clone <your-repo>  
+cd dragonzpyder  
+pip install -r requirements.txt  
+python main.py  
 
 ---
 
-## ⚔️ Philosophy
+## ⚔️ Note
 
-DragonZpyder is not just a project — it is a step toward:
-
-> **An AI-native internet where agents act, not browse.**
-
----
-
-## 🧑‍💻 Getting Started
-
-```bash
-git clone https://github.com/YOUR_USERNAME/dragonzpyder-core.git
-cd dragonzpyder-core
-pip install -r requirements.txt
-python main.py
-````
-
----
-
-## 🤝 Contributing
-
-This project is in its early stages. Contributions, ideas, and discussions are welcome.
-
----
-
-## 📜 License
-
-MIT License
-
----
-
-## 🔥 Final Note
-
-This is v1 — minimal, functional, and real.
-
-> **Ship first. Evolve relentlessly.**
+v1 — minimal and functional.  
+Ship fast. Improve later.
